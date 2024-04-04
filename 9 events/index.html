@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><!--language is english-->
+<head><!--meta information basically website name,title ,link css file in head-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--we are connecting a link to stylesheet-->
+    <!--rel is the relation between css file and html file ,herf is the link-->
+</head>
+<body>
+
+
+<!--inline event handeling==html file ke andar js console pe print karana ,but it is not a godd way to handle event in htma file-->
+
+    <!--1  on click is an attribute which prints on screen by clicking-->
+   <button onclick="console.log('button was clicked');alert('hii')">click me!</button>
+
+   <!--2  jab hamee double click pe koi kaam karana hai-->
+   <button id="btn1">btn1</button>
+   <button id="btn2">btn2</button>
+   <button id="btn3">btn3</button>
+   <button id="btn4">btn4</button>
+   <!--3-->
+   <div onmouseover="console.log('you are inside div 2')">
+    you are inside div 1
+   </div>
+
+   <div id="div2"> you are inside div 2</div>
+
+
+    <!--paragraph,heading,content,button basicsally content comes in bod-->
+    <!--to connect html and java script we use script-->
+    <!--we should write script tag at last-->
+    <!--alert and prompt stops the peice of code to execute ,till the  alert and prompt processed-->
+    <!--source is the link to java script file-->
+    <script src="nine.js"></script>
+</body>
+</html>

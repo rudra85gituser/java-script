@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    
+}
+#heading2{/*styling using giving id*/
+    color: lavender;
+    
+}
+.class1{
+    color: orange;
+}
+body{
+    background-color: pink;
+}
+button{
+    background-color: aquamarine;
+}
